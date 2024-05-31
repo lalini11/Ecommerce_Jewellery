@@ -24,7 +24,7 @@ const Slide =[
     {
       "id": 3,
       "image": Image3,
-      "title": "Bridal Jewelry Set",
+      "title": "Bridal Jewellery Set",
       "subtitle": "Make your special day even more memorable."
     },
     {

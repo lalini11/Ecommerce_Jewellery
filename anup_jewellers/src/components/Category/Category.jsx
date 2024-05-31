@@ -44,7 +44,8 @@ const Category = () => {
                         </div>
                     </div>
                     <img src={Img1} alt=''
-                    className='w-[320px] absolute top-0' />
+                    className='w-[220px] absolute top-1 sm:w-[250px]
+                    h-[200px] sm:h-[200px] sm:scale-105 lg:scale-110 object-contain mx-auto' />
                 </div>
                 {/*third col*/}  
                 <div className='col-span-2 py-10 pl-5 bg-gradient-to-br from-red-400
@@ -55,14 +56,14 @@ const Category = () => {
                             <p className='text-2xl xl:text-4xl font-bold opacity-20 mb-2 text-black'>Bangles</p>
                             <Button
                             text="Explore Now"
-                            bgColor={"bg-primary"}
-                            textColor={"text-white"}
+                            bgColor={"bg-white"}
+                            textColor={"text-primary"}
                             />
                         </div>
                     </div>
                     <img src={Img2} alt=''
                     // className='w-[320px] absolute -right-4 lg:top-[40px]' />
-                    className='w-[320px] absolute top-0' />
+                    className='w-[250px] absolute top-1/2 -translate-y-1/2 -right-0' />
 
                 </div> 
             </div>
