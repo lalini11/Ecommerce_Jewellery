@@ -8,7 +8,9 @@ import Brand5 from '../../assets/images/brand5.png';
 
 const Partners = () => {
   return (
-    <div className='py-8 mt-24 md:block bg-gray-200'>
+    <div 
+    data-aos='zoom-out'
+    className='py-8 mt-24 md:block bg-gray-200'>
         <div className="container">
             <div className="grid grid-cols-5 gap-3 place-items-center">
                 <img src={Brand1} alt='' className='w-[80px]'/>

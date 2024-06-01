@@ -12,6 +12,7 @@ const Blogdata = [
       description: "Explore the rich history behind the tradition of diamond engagement rings, from ancient Rome to modern times.",
       published: "2023-04-12",
       image:BlogImg1,
+      aosDelay: '200',
       
     },
     {
@@ -19,12 +20,14 @@ const Blogdata = [
       description: "Stay ahead of the fashion curve with our guide to the top 10 jewelry trends for 2024, featuring bold designs and sustainable materials.",
       published: "2024-01-08",
       image:BlogImg2,
+      aosDelay:'400',
     },
     {
       title: "How to Care for Your Gold Jewelry",
       description: "Learn the best practices for maintaining the luster and longevity of your gold jewelry with our expert care tips.",
       published: "2023-07-15",
       image:BlogImg3,
+      aosDelay: '600',
     },
   ]
   
@@ -40,7 +43,12 @@ const Blogs = () => {
              md:grid-cols-3 gap-6 sm:gap-4 md:gap-7">
                 {/* Blog Card */}
                 {Blogdata.map((data)=> (
-                    <div key={data.title} className='bg-white'>
+                    <div 
+                    key={data.title}
+                    data-aos='fade-up'
+                    data-aos-delay={data.aosDelay}
+                     
+                    className='bg-white'>
                         {/*Image section */}
                         <div className='overflow-hidden rounded-2xl mb-2'>
                             <img src={data.image} alt=''

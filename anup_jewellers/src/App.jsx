@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import Navbar from './components/Navbar/Navbar';
@@ -15,6 +15,10 @@ import Products from './components/Products/Products';
 import Blogs from './components/Blogs/Blogs';
 import Partners from './components/Partners/Partners';
 import Footers from './components/Footers/Footers';
+import Popup from './components/Popup/Popup';
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 const BannerData = {
   discount: '30% OFF',
@@ -39,11 +43,26 @@ const BannerData2 = {
 
 function App() {
   const [count, setCount] = useState(0);
+  const [orderPopup, setOrderPopup] = useState(false);
 
+  const handleOrderPopup = () => {
+    setOrderPopup(!orderPopup);
+  }
+
+  React.useEffect(() => {
+    AOS.init(
+      {
+        duration:2000,
+        easing: 'ease-in-sine',
+        delay:100,
+        offset:100,
+      });
+      AOS.refresh();
+  }, [])
   return (
-    <>
-    <Navbar/>
-    <ShowSlider/>
+    <div>
+    <Navbar handleOrderPopup={handleOrderPopup}/>
+    <ShowSlider handleOrderPopup={handleOrderPopup}/>
     <Category/>
     <Category2/>
     <Services/>
@@ -53,7 +72,9 @@ function App() {
     <Blogs/>
     <Partners/>
     <Footers/>
-    </>
+    <Popup orderPopup={orderPopup}
+    handleOrderPopup={handleOrderPopup}/>
+    </div>
   )
 }
 

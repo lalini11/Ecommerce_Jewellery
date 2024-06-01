@@ -48,7 +48,7 @@ const Category = () => {
                     h-[200px] sm:h-[200px] sm:scale-105 lg:scale-110 object-contain mx-auto' />
                 </div>
                 {/*third col*/}  
-                <div className='col-span-2 py-10 pl-5 bg-gradient-to-br from-red-400
+                <div className='sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-red-400
                 to-red-200 text-white rounded-3xl relative h-[320px]
                 flex items-end'>
                     <div className='item-center'>
