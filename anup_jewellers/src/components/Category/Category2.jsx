@@ -16,17 +16,29 @@ const Category2 = () => {
                 flex items-end'>
                     <div className='item-center'>
                         <div className='mb-4'>
-                            <p className='text-2xl xl:text-4xl font-bold opacity-20 mb-2 text-black'>Jewellery</p>
-                            <Button
-                            text="Explore Now"
-                            bgColor={"bg-primary"}
-                            textColor={"text-white"}
-                            />
+                            <p
+                            data-aos='fade-right'
+                            data-aos-duration='500'
+                            data-aos-once='true' 
+                            className='text-2xl xl:text-4xl font-bold opacity-20 mb-2'>Jewellery</p>
+                            <div
+                            data-aos='fade-up-left'
+                            data-aos-offset='0'
+                            data-aos-duration='500'
+                            data-aos-delay='300'
+                            >
+                                <Button
+                                text="Explore Now"
+                                bgColor={"bg-primary"}
+                                textColor={"text-white"}
+                                />
+                            </div>
+                            
                         </div>
                     </div>
                     <img src={Img2} alt=''
                     // className='w-[320px] absolute -right-4 lg:top-[40px]' />
-                    className='w-[250px] absolute top-1/2 -translate-y-1/2 -right-0' />
+                    className='w-[210px] sm:w-[250px] absolute top-1/3 sm:top-1/2 -translate-y-1/2 -right-0' />
 
                 </div>
                 {/*First col*/}
@@ -35,12 +47,24 @@ const Category2 = () => {
                 flex items-end'>
                     <div className='item-center'>
                         <div className='mb-4'>
-                            <p className='text-2xl xl:text-4xl font-bold opacity-20 mb-2'>Necklace</p>
-                            <Button
-                            text="Explore Now"
-                            bgColor={"bg-primary"}
-                            textColor={"text-white"}
-                            />
+                            <p 
+                            data-aos='fade-right'
+                            data-aos-duration='500'
+                            data-aos-once='true'
+                            className='text-2xl xl:text-4xl font-bold opacity-20 mb-2 text-white'>Necklace</p>
+                            <div
+                            data-aos='fade-up-left'
+                            data-aos-offset='0'
+                            data-aos-duration='500'
+                            data-aos-delay='300'
+                            >
+                                <Button
+                                text="Explore Now"
+                                bgColor={"bg-primary"}
+                                textColor={"text-white"}
+                                />
+                            </div>
+                            
                         </div>
                     </div>
                     <img src={Img3} alt=''
@@ -54,12 +78,25 @@ const Category2 = () => {
                 flex items-end'>
                     <div className='item-center'>
                         <div className='mb-4'>
-                            <p className='text-2xl xl:text-4xl font-bold opacity-20 mb-2'>Rings</p>
-                            <Button
-                            text="Explore Now"
-                            bgColor={"bg-primary"}
-                            textColor={"text-white"}
-                            />
+                            <p 
+                            data-aos='fade-right'
+                            data-aos-duration='500'
+                            data-aos-once='true'
+                            className='text-2xl xl:text-4xl font-bold opacity-20 mb-2 text-white'>Rings</p>
+                            <div
+                            data-aos='fade-up-left'
+                            data-aos-offset='0'
+                            data-aos-duration='500'
+                            data-aos-delay='300'
+                            >
+                                <Button
+                                text="Explore Now"
+                                bgColor={"bg-primary"}
+                                textColor={"text-white"}
+                                />
+
+                            </div>
+                            
                         </div>
                     </div>
                     <img src={Img1} alt=''

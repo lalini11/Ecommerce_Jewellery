@@ -57,7 +57,7 @@ const ShowSlider = ({ handleOrderPopup }) => {
       };
   return (
     <div className='container'>
-        <div className='overflow-hidden rounded-3xl min-h-[550px]
+        <div className='overflow-hidden rounded-3xl min-h-[50px]
         sm:min-h-[650px] bg-gradient-to-r Slide-bg-color flex justify-center items-center'>
             <div className='container pb-8 sm:pb-0'>
             <Slider {...settings}>
@@ -65,19 +65,19 @@ const ShowSlider = ({ handleOrderPopup }) => {
                     <div key={data.id}>
                      <div className='grid grid-cols-1 sm:grid-cols-2'>
                         <div className='flex flex-col justify-center
-                        gap-4 sm:pl-3 pt-12 sm:pt-0 text-center
+                        gap-4 sm:pl-3 sm:pt-0 text-center
                         sm:text-left order-2 sm:order-1 relative z-10'>
                           <h1
                           data-aos='zoom-out'
                           data-aos-duration='500'
                           data-aos-once='true'
-                           className='text-2xl sm:text-2xl lg:text-2xl font-bold'>
+                           className='text-2xl sm:text-2xl lg:text-2xl font-bold hidden sm:block'>
                            {data.subtitle}</h1>
                           <h1 
                           data-aos='zoom-out'
                           data-aos-duration='500'
                           data-aos-once='true'
-                          className='text-5xl sm:text-4xl lg:text-7xl font-bold'>
+                          className='text-2xl sm:text-4xl lg:text-7xl font-bold'>
                             {data.title}</h1>
                           <div 
                           data-aos='fade-up'

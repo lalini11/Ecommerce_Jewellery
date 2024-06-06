@@ -68,11 +68,11 @@ const Footers = () => {
                 <p className='text-gray-500 mt-4'>
                     Made with by The Focus Media
                 </p>
-                <a href="https://www.tanishq.co.in/"
+                <a href="https://youtu.be/aMbGahPZev4?si=_VNubMnwuvUZJi6O"
                 target='blank'
                 className='inline-block bg-primary text-white
                 py-2 px-4 mt-4 text-sm rounded-full'>
-                    Visit site
+                    Youtube
                 </a>
               </div>
               {/*Footer Links*/}
@@ -124,15 +124,15 @@ const Footers = () => {
                             </div>
                             {/*Social Links*/}
                             <div className='flex items-center gap-3 mt-6'>
-                                <a href='#'>
+                                <a href='https://www.instagram.com/'>
                                     <FaInstagram className='text-3xl 
                                     hover:text-primary duration-300' />
                                 </a>
-                                <a href='#'>
+                                <a href='https://www.facebook.com/'>
                                     <FaFacebook className='text-3xl 
                                     hover:text-primary duration-300' />
                                 </a>
-                                <a href='#'>
+                                <a href='https://www.linkedin.com/'>
                                     <FaLinkedin className='text-3xl 
                                     hover:text-primary duration-300' />
                                 </a>
