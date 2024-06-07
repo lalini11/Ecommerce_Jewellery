@@ -51,7 +51,7 @@ const [isOpen, setIsOpen] = useState(false);
 const [dropdownOpen, setDropdownOpen] = useState(false);
   return (
     <div className='bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
-       <div className='py-4'>
+       <div className='pt-0 pb-5'>
         <div className='container flex justify-between items-center'>
             <div className='flex items-center gap-4'>
                 <a href='#'

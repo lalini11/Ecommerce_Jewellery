@@ -58,9 +58,10 @@ const ShowSlider = ({ handleOrderPopup }) => {
   return (
     <div className='container'>
         <div className='overflow-hidden rounded-3xl min-h-[50px]
-        sm:min-h-[650px] bg-gradient-to-r Slide-bg-color flex justify-center items-center'>
-            <div className='container pb-8 sm:pb-0'>
-            <Slider {...settings}>
+        sm:min-h-[550px] bg-gradient-to-r Slide-bg-color 
+        flex justify-center items-center'>
+            <div className='container pb-8 sm:pb-0 px-8'>
+            <Slider {...settings}> 
                 {Slide.map((data) => (
                     <div key={data.id}>
                      <div className='grid grid-cols-1 sm:grid-cols-2'>
@@ -77,7 +78,7 @@ const ShowSlider = ({ handleOrderPopup }) => {
                           data-aos='zoom-out'
                           data-aos-duration='500'
                           data-aos-once='true'
-                          className='text-2xl sm:text-4xl lg:text-7xl font-bold'>
+                          className='text-xl sm:text-4xl lg:text-6xl font-bold '>
                             {data.title}</h1>
                           <div 
                           data-aos='fade-up'
@@ -102,7 +103,7 @@ const ShowSlider = ({ handleOrderPopup }) => {
                             <img src={data.image} alt=''
                             className='w-[300px] sm:w-[450px]
                             h-[300px] sm:h-[450px]
-                            sm:scale-105 lg:scale-110 object-contain
+                            sm:scale-105 lg:scale-100 object-contain
                             mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)] relative z-40' />
                         </div>
                      </div>

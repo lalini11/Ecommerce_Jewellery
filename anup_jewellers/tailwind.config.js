@@ -8,9 +8,13 @@ export default {
     extend: {
       container: {
         center: true,
-        padding: {
-          DEFAULT: "2rem",
-          sm: "3rem",
+        // padding: {
+        //   DEFAULT: "2rem",
+        //   sm: "3rem",
+        // },
+        margin: {
+          DEFAULT: "1rem",
+          sm: "1rem",
         },
       },
       colors:{
