@@ -16,7 +16,7 @@ https://fabulous-bubblegum-6db57c.netlify.app/
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript  
+- **Frontend:** HTML, Tailwind CSS, JavaScript, React
 - **Frameworks/Libraries:** None (Vanilla)  
 - **Tools:** VS Code, Git, GitHub  
 
